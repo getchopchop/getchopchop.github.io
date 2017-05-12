@@ -1,0 +1,2624 @@
+<!DOCTYPE HTML>
+<html>
+
+<!-- Mirrored from chopchop_github.gareth.dyn.iweb.co.uk/pattern/utility/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 12 May 2017 10:51:13 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="robots" content="noindex">
+    <title>iWeb Component Library</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../../build/vendor/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="../../build/vendor/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="../../build/vendor/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="../../build/vendor/favicons/manifest.json">
+    <link rel="mask-icon" href="../../build/vendor/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" type="text/css" href="../../build/vendor/normalize.css/normalize.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="../../build/css/styles.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="../../build/css/chopchop-ui.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="../../build/vendor/prismjs/prism.css" media="all" />
+
+    </head>
+<body class="cc-mode-library">
+
+    <div class="cc-devbar"><span class="cc-devbar__bp"></span></div>
+
+            <header class="cc-header">
+            <div class="u-container">
+                <div class="grid g-center g-gutter-x g-stretch-last">
+                    <div>
+                        <a href="#" class="js-cc-toggle" id="cc-menu-trigger" data-cc-toggle-action="toggle" data-cc-toggle-target="#cc-nav">
+                            <svg class="icon icon--lg icon-menu">
+            <use xlink:href="../../build/img/vector/general/symbol/sprite-symbol.svg#menu" />
+        </svg>                            <svg class="icon icon--lg icon-cross">
+            <use xlink:href="../../build/img/vector/general/symbol/sprite-symbol.svg#cross" />
+        </svg>                        </a>
+                    </div>
+                    <div>
+                        iWeb Component Library
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="site-wrapper cc-site-wrapper">
+
+            <nav class="cc-nav js-cc-toggle" id="cc-nav" data-cc-toggle-target-callback="#cc-menu-trigger">
+                <div class="block-content site-navigation__content">
+                    <nav>
+    <div data-cc-collapsible-mode="collapse-all" class="cc-accordion js-cc-collapsible">
+                        <div class="cc-accordion__header">
+                    <a href="../branding/index.html">Branding</a>
+                </div>
+                <div class="cc-accordion__body">
+                    <ol>
+                                                                            <li class="level1">
+                                <a href="../branding/index.html#section-color">
+                                    Color                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="../branding/index.html#section-logo">
+                                    Logo                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="../branding/index.html#section-typography">
+                                    Typography                                </a>
+                            </li>
+                                            </ol>
+                </div>
+                            <div class="cc-accordion__header">
+                    <a href="../base/index.html">Base</a>
+                </div>
+                <div class="cc-accordion__body">
+                    <ol>
+                                                                            <li class="level1">
+                                <a href="../base/index.html#section-blockquote">
+                                    Blockquote                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="../base/index.html#section-button">
+                                    Button                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="../base/index.html#section-form">
+                                    Form                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="../base/index.html#section-heading">
+                                    Heading                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="../base/index.html#section-horizontal-rule">
+                                    Horizontal rule                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="../base/index.html#section-icon">
+                                    Icon                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="../base/index.html#section-image">
+                                    Image                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="../base/index.html#section-inline">
+                                    Inline                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="../base/index.html#section-list">
+                                    List                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="../base/index.html#section-paragraph">
+                                    Paragraph                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="../base/index.html#section-pre">
+                                    Pre                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="../base/index.html#section-table">
+                                    Table                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="../base/index.html#section-timestamp">
+                                    Timestamp                                </a>
+                            </li>
+                                            </ol>
+                </div>
+                            <div class="cc-accordion__header">
+                    <a href="../component/index.html">Component</a>
+                </div>
+                <div class="cc-accordion__body">
+                    <ol>
+                                                                            <li class="level1">
+                                <a href="../component/index.html#section-accordion">
+                                    Accordion                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="../component/index.html#section-alert">
+                                    Alert                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="../component/index.html#section-breadcrumb">
+                                    Breadcrumb                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="../component/index.html#section-button">
+                                    Button                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="../component/index.html#section-card">
+                                    Card                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="../component/index.html#section-field-group">
+                                    Field group                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="../component/index.html#section-form-elements">
+                                    Form elements                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="../component/index.html#section-nav">
+                                    Nav                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="../component/index.html#section-overlay">
+                                    Overlay                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="../component/index.html#section-pagination">
+                                    Pagination                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="../component/index.html#section-single-form">
+                                    Single form                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="../component/index.html#section-table">
+                                    Table                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="../component/index.html#section-tabs">
+                                    Tabs                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="../component/index.html#section-tag">
+                                    Tag                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="../component/index.html#section-title">
+                                    Title                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="../component/index.html#section-toggle-icon">
+                                    Toggle icon                                </a>
+                            </li>
+                                            </ol>
+                </div>
+                            <div class="cc-accordion__header">
+                    <a href="../helper/index.html">Helper</a>
+                </div>
+                <div class="cc-accordion__body">
+                    <ol>
+                                                                            <li class="level1">
+                                <a href="../helper/index.html#section-breakpoint">
+                                    Breakpoint                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="../helper/index.html#section-data">
+                                    Data                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="../helper/index.html#section-ellipsis">
+                                    Ellipsis                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="../helper/index.html#section-grid">
+                                    Grid                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="../helper/index.html#section-shape">
+                                    Shape                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="../helper/index.html#section-toggle">
+                                    Toggle                                </a>
+                            </li>
+                                            </ol>
+                </div>
+                            <div class="cc-accordion__header">
+                    <a href="index.html">Utility</a>
+                </div>
+                <div class="cc-accordion__body">
+                    <ol>
+                                                                            <li class="level1">
+                                <a href="index.html#section-align">
+                                    Align                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="index.html#section-block">
+                                    Block                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="index.html#section-color">
+                                    Color                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="index.html#section-container">
+                                    Container                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="index.html#section-full-height">
+                                    Full height                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="index.html#section-grid">
+                                    Grid                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="index.html#section-list">
+                                    List                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="index.html#section-ratio">
+                                    Ratio                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="index.html#section-section">
+                                    Section                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="index.html#section-separator">
+                                    Separator                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="index.html#section-space">
+                                    Space                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="index.html#section-toggle">
+                                    Toggle                                </a>
+                            </li>
+                                                    <li class="level1">
+                                <a href="index.html#section-visible">
+                                    Visible                                </a>
+                            </li>
+                                            </ol>
+                </div>
+                            <div class="cc-accordion__header">
+                    <a href="../template/index.html">Template</a>
+                </div>
+                <div class="cc-accordion__body">
+                    <ol>
+                                                                            <li class="level1">
+                                <a href="../template/index.html#section-homepage">
+                                    Homepage                                </a>
+                            </li>
+                                            </ol>
+                </div>
+                        </div>
+</nav>
+                </div>
+            </nav>
+
+            <main class="cc-main-content">
+        <div class="cc-pattern"><span class="cc-pattern__anchor" id="section-align"></span><div class="cc-pattern__header"><h3><a href="#section-align"><svg class="icon icon--lg">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../build/img/vector/general/symbol/sprite-symbol.svg#link"></use>
+        </svg> Align</a></h3></div><div class="cc-pattern__body">
+        <div class="cc-demo">
+            <div class="cc-demo__header">
+                <p>Center</p>
+                <ul>
+                    <li><a href="#" data-cc-toggle-action="toggle" data-cc-toggle-target="#cc-code-center-0">Code</a></li>
+                    <li><a href="align/centerf587.html?preview=true">Preview</a></li>
+                </ul>
+            </div>
+            <div class="cc-demo__demo">
+                <img src="http://placehold.it/100x100" class="u-center u-img-responsive">
+
+            </div>
+            <div class="cc-demo__code u-toggle" id="cc-code-center-0" data-cc-toggle-group="cc-section-center">
+                <pre><code class="language-html">&lt;img src=&quot;//placehold.it/100x100&quot; class=&quot;u-center u-img-responsive&quot;&gt;
+</code></pre>
+            </div>
+        </div>
+        
+        <div class="cc-demo">
+            <div class="cc-demo__header">
+                <p>Pull Left</p>
+                <ul>
+                    <li><a href="#" data-cc-toggle-action="toggle" data-cc-toggle-target="#cc-code-pull-left-1">Code</a></li>
+                    <li><a href="align/pull-leftf587.html?preview=true">Preview</a></li>
+                </ul>
+            </div>
+            <div class="cc-demo__demo">
+                <div class="u-clearfix">
+    <img src="http://placehold.it/100x100" class="u-pull-left">
+    <p>Curabitur facilisis mi a nunc tempus, vel ornare enim pharetra. Donec mattis tellus iaculis metus fringilla, vel maximus lorem condimentum. In in viverra velit. Vestibulum eu turpis non velit consectetur feugiat vitae et dolor. Aliquam molestie, risus sed tempor bibendum, justo nisi finibus ante, id iaculis neque nibh a risus. Nunc ex orci, ullamcorper vitae ullamcorper ut, facilisis ut lectus. Donec ut lectus ut risus congue maximus. Sed dapibus auctor egestas. In pretium iaculis elit. Suspendisse euismod turpis sollicitudin augue interdum dictum. Quisque ullamcorper libero eu tortor porttitor ullamcorper.</p>
+</div>
+
+            </div>
+            <div class="cc-demo__code u-toggle" id="cc-code-pull-left-1" data-cc-toggle-group="cc-section-pull-left">
+                <pre><code class="language-html">&lt;div class=&quot;u-clearfix&quot;&gt;
+    &lt;img src=&quot;//placehold.it/100x100&quot; class=&quot;u-pull-left&quot;&gt;
+    &lt;p&gt;Curabitur facilisis mi a nunc tempus, vel ornare enim pharetra. Donec mattis tellus iaculis metus fringilla, vel maximus lorem condimentum. In in viverra velit. Vestibulum eu turpis non velit consectetur feugiat vitae et dolor. Aliquam molestie, risus sed tempor bibendum, justo nisi finibus ante, id iaculis neque nibh a risus. Nunc ex orci, ullamcorper vitae ullamcorper ut, facilisis ut lectus. Donec ut lectus ut risus congue maximus. Sed dapibus auctor egestas. In pretium iaculis elit. Suspendisse euismod turpis sollicitudin augue interdum dictum. Quisque ullamcorper libero eu tortor porttitor ullamcorper.&lt;/p&gt;
+&lt;/div&gt;
+</code></pre>
+            </div>
+        </div>
+        
+        <div class="cc-demo">
+            <div class="cc-demo__header">
+                <p>Pull Right</p>
+                <ul>
+                    <li><a href="#" data-cc-toggle-action="toggle" data-cc-toggle-target="#cc-code-pull-right-2">Code</a></li>
+                    <li><a href="align/pull-rightf587.html?preview=true">Preview</a></li>
+                </ul>
+            </div>
+            <div class="cc-demo__demo">
+                <div class="u-clearfix">
+    <img src="http://placehold.it/100x100" class="u-pull-right">
+    <p>Curabitur facilisis mi a nunc tempus, vel ornare enim pharetra. Donec mattis tellus iaculis metus fringilla, vel maximus lorem condimentum. In in viverra velit. Vestibulum eu turpis non velit consectetur feugiat vitae et dolor. Aliquam molestie, risus sed tempor bibendum, justo nisi finibus ante, id iaculis neque nibh a risus. Nunc ex orci, ullamcorper vitae ullamcorper ut, facilisis ut lectus. Donec ut lectus ut risus congue maximus. Sed dapibus auctor egestas. In pretium iaculis elit. Suspendisse euismod turpis sollicitudin augue interdum dictum. Quisque ullamcorper libero eu tortor porttitor ullamcorper.</p>
+</div>
+
+            </div>
+            <div class="cc-demo__code u-toggle" id="cc-code-pull-right-2" data-cc-toggle-group="cc-section-pull-right">
+                <pre><code class="language-html">&lt;div class=&quot;u-clearfix&quot;&gt;
+    &lt;img src=&quot;//placehold.it/100x100&quot; class=&quot;u-pull-right&quot;&gt;
+    &lt;p&gt;Curabitur facilisis mi a nunc tempus, vel ornare enim pharetra. Donec mattis tellus iaculis metus fringilla, vel maximus lorem condimentum. In in viverra velit. Vestibulum eu turpis non velit consectetur feugiat vitae et dolor. Aliquam molestie, risus sed tempor bibendum, justo nisi finibus ante, id iaculis neque nibh a risus. Nunc ex orci, ullamcorper vitae ullamcorper ut, facilisis ut lectus. Donec ut lectus ut risus congue maximus. Sed dapibus auctor egestas. In pretium iaculis elit. Suspendisse euismod turpis sollicitudin augue interdum dictum. Quisque ullamcorper libero eu tortor porttitor ullamcorper.&lt;/p&gt;
+&lt;/div&gt;
+</code></pre>
+            </div>
+        </div>
+        
+        <div class="cc-demo">
+            <div class="cc-demo__header">
+                <p>Text Center</p>
+                <ul>
+                    <li><a href="#" data-cc-toggle-action="toggle" data-cc-toggle-target="#cc-code-text-center-3">Code</a></li>
+                    <li><a href="align/text-centerf587.html?preview=true">Preview</a></li>
+                </ul>
+            </div>
+            <div class="cc-demo__demo">
+                <p class="u-text-center">This is center aligned text</p>
+
+            </div>
+            <div class="cc-demo__code u-toggle" id="cc-code-text-center-3" data-cc-toggle-group="cc-section-text-center">
+                <pre><code class="language-html">&lt;p class=&quot;u-text-center&quot;&gt;This is center aligned text&lt;/p&gt;
+</code></pre>
+            </div>
+        </div>
+        
+        <div class="cc-demo">
+            <div class="cc-demo__header">
+                <p>Text Left</p>
+                <ul>
+                    <li><a href="#" data-cc-toggle-action="toggle" data-cc-toggle-target="#cc-code-text-left-4">Code</a></li>
+                    <li><a href="align/text-leftf587.html?preview=true">Preview</a></li>
+                </ul>
+            </div>
+            <div class="cc-demo__demo">
+                <p class="u-text-left">This is left aligned text</p>
+
+            </div>
+            <div class="cc-demo__code u-toggle" id="cc-code-text-left-4" data-cc-toggle-group="cc-section-text-left">
+                <pre><code class="language-html">&lt;p class=&quot;u-text-left&quot;&gt;This is left aligned text&lt;/p&gt;
+</code></pre>
+            </div>
+        </div>
+        
+        <div class="cc-demo">
+            <div class="cc-demo__header">
+                <p>Text Right</p>
+                <ul>
+                    <li><a href="#" data-cc-toggle-action="toggle" data-cc-toggle-target="#cc-code-text-right-5">Code</a></li>
+                    <li><a href="align/text-rightf587.html?preview=true">Preview</a></li>
+                </ul>
+            </div>
+            <div class="cc-demo__demo">
+                <p class="u-text-right">This is right aligned text</p>
+
+            </div>
+            <div class="cc-demo__code u-toggle" id="cc-code-text-right-5" data-cc-toggle-group="cc-section-text-right">
+                <pre><code class="language-html">&lt;p class=&quot;u-text-right&quot;&gt;This is right aligned text&lt;/p&gt;
+</code></pre>
+            </div>
+        </div>
+        </div></div><div class="cc-pattern"><span class="cc-pattern__anchor" id="section-block"></span><div class="cc-pattern__header"><h3><a href="#section-block"><svg class="icon icon--lg">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../build/img/vector/general/symbol/sprite-symbol.svg#link"></use>
+        </svg> Block</a></h3></div><div class="cc-pattern__body"><div class="cc-pattern__doc"><p>Adds padding and explicitly displays the element as a block.</p>
+<h4>Available classes:</h4>
+
+<div class="cc-classes">
+    <ul>
+                    <li><code>.u-block</code></li>
+                    <li><code>.u-block-top</code></li>
+                    <li><code>.u-block-bottom</code></li>
+                    <li><code>.u-block-xs</code></li>
+                    <li><code>.u-block-xs-top</code></li>
+                    <li><code>.u-block-xs-bottom</code></li>
+                    <li><code>.u-block-sm</code></li>
+                    <li><code>.u-block-sm-top</code></li>
+                    <li><code>.u-block-sm-bottom</code></li>
+                    <li><code>.u-block-lg</code></li>
+                    <li><code>.u-block-lg-top</code></li>
+                    <li><code>.u-block-lg-bottom</code></li>
+                    <li><code>.u-block-xl</code></li>
+                    <li><code>.u-block-xl-top</code></li>
+                    <li><code>.u-block-xl-bottom</code></li>
+            </ul>
+</div>
+</div>
+        <div class="cc-demo">
+            <div class="cc-demo__header">
+                <p>Base</p>
+                <ul>
+                    <li><a href="#" data-cc-toggle-action="toggle" data-cc-toggle-target="#cc-code-base-6">Code</a></li>
+                    <li><a href="block/basef587.html?preview=true">Preview</a></li>
+                </ul>
+            </div>
+            <div class="cc-demo__demo">
+                <div class="u-block u-fill-neutral-lighter">
+    <p>Text inside block</p>
+</div>
+
+            </div>
+            <div class="cc-demo__code u-toggle" id="cc-code-base-6" data-cc-toggle-group="cc-section-base">
+                <pre><code class="language-html">&lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;
+    &lt;p&gt;Text inside block&lt;/p&gt;
+&lt;/div&gt;
+</code></pre>
+            </div>
+        </div>
+        </div></div><div class="cc-pattern"><span class="cc-pattern__anchor" id="section-color"></span><div class="cc-pattern__header"><h3><a href="#section-color"><svg class="icon icon--lg">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../build/img/vector/general/symbol/sprite-symbol.svg#link"></use>
+        </svg> Color</a></h3></div><div class="cc-pattern__body">
+        <div class="cc-demo">
+            <div class="cc-demo__header">
+                <p>Fill</p>
+                <ul>
+                    <li><a href="#" data-cc-toggle-action="toggle" data-cc-toggle-target="#cc-code-fill-7">Code</a></li>
+                    <li><a href="color/fillf587.html?preview=true">Preview</a></li>
+                </ul>
+            </div>
+            <div class="cc-demo__demo">
+                
+<div class="grid g-gutter">
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-fill-primary-pink">
+                </div>
+                <div class="cc-color__body">
+                    <h6>primary pink</h6>
+                    <p><code>.u-fill-primary-pink</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-fill-neutral-black">
+                </div>
+                <div class="cc-color__body">
+                    <h6>neutral black</h6>
+                    <p><code>.u-fill-neutral-black</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-fill-neutral-white">
+                </div>
+                <div class="cc-color__body">
+                    <h6>neutral white</h6>
+                    <p><code>.u-fill-neutral-white</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-fill-neutral-darkest">
+                </div>
+                <div class="cc-color__body">
+                    <h6>neutral darkest</h6>
+                    <p><code>.u-fill-neutral-darkest</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-fill-neutral-darker">
+                </div>
+                <div class="cc-color__body">
+                    <h6>neutral darker</h6>
+                    <p><code>.u-fill-neutral-darker</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-fill-neutral-dark">
+                </div>
+                <div class="cc-color__body">
+                    <h6>neutral dark</h6>
+                    <p><code>.u-fill-neutral-dark</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-fill-neutral-light">
+                </div>
+                <div class="cc-color__body">
+                    <h6>neutral light</h6>
+                    <p><code>.u-fill-neutral-light</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-fill-neutral-lighter">
+                </div>
+                <div class="cc-color__body">
+                    <h6>neutral lighter</h6>
+                    <p><code>.u-fill-neutral-lighter</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-fill-neutral-lightest">
+                </div>
+                <div class="cc-color__body">
+                    <h6>neutral lightest</h6>
+                    <p><code>.u-fill-neutral-lightest</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-fill-contextual-success">
+                </div>
+                <div class="cc-color__body">
+                    <h6>contextual success</h6>
+                    <p><code>.u-fill-contextual-success</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-fill-contextual-success-light">
+                </div>
+                <div class="cc-color__body">
+                    <h6>contextual success light</h6>
+                    <p><code>.u-fill-contextual-success-light</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-fill-contextual-warning">
+                </div>
+                <div class="cc-color__body">
+                    <h6>contextual warning</h6>
+                    <p><code>.u-fill-contextual-warning</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-fill-contextual-warning-light">
+                </div>
+                <div class="cc-color__body">
+                    <h6>contextual warning light</h6>
+                    <p><code>.u-fill-contextual-warning-light</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-fill-contextual-error">
+                </div>
+                <div class="cc-color__body">
+                    <h6>contextual error</h6>
+                    <p><code>.u-fill-contextual-error</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-fill-contextual-error-light">
+                </div>
+                <div class="cc-color__body">
+                    <h6>contextual error light</h6>
+                    <p><code>.u-fill-contextual-error-light</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-fill-contextual-info">
+                </div>
+                <div class="cc-color__body">
+                    <h6>contextual info</h6>
+                    <p><code>.u-fill-contextual-info</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-fill-contextual-info-light">
+                </div>
+                <div class="cc-color__body">
+                    <h6>contextual info light</h6>
+                    <p><code>.u-fill-contextual-info-light</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-fill-social-twitter">
+                </div>
+                <div class="cc-color__body">
+                    <h6>social twitter</h6>
+                    <p><code>.u-fill-social-twitter</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-fill-social-facebook">
+                </div>
+                <div class="cc-color__body">
+                    <h6>social facebook</h6>
+                    <p><code>.u-fill-social-facebook</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-fill-social-google">
+                </div>
+                <div class="cc-color__body">
+                    <h6>social google</h6>
+                    <p><code>.u-fill-social-google</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-fill-social-pinterest">
+                </div>
+                <div class="cc-color__body">
+                    <h6>social pinterest</h6>
+                    <p><code>.u-fill-social-pinterest</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-fill-social-instagram">
+                </div>
+                <div class="cc-color__body">
+                    <h6>social instagram</h6>
+                    <p><code>.u-fill-social-instagram</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-fill-social-vimeo">
+                </div>
+                <div class="cc-color__body">
+                    <h6>social vimeo</h6>
+                    <p><code>.u-fill-social-vimeo</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-fill-social-linkedin">
+                </div>
+                <div class="cc-color__body">
+                    <h6>social linkedin</h6>
+                    <p><code>.u-fill-social-linkedin</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-fill-social-youtube">
+                </div>
+                <div class="cc-color__body">
+                    <h6>social youtube</h6>
+                    <p><code>.u-fill-social-youtube</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-fill-social-tumblr">
+                </div>
+                <div class="cc-color__body">
+                    <h6>social tumblr</h6>
+                    <p><code>.u-fill-social-tumblr</code></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            </div>
+            <div class="cc-demo__code u-toggle" id="cc-code-fill-7" data-cc-toggle-group="cc-section-fill">
+                <pre><code class="language-html">
+&lt;div class=&quot;grid g-gutter&quot;&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-fill-primary-pink&quot;&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;primary pink&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-fill-primary-pink&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-fill-neutral-black&quot;&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;neutral black&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-fill-neutral-black&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-fill-neutral-white&quot;&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;neutral white&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-fill-neutral-white&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-fill-neutral-darkest&quot;&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;neutral darkest&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-fill-neutral-darkest&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-fill-neutral-darker&quot;&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;neutral darker&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-fill-neutral-darker&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-fill-neutral-dark&quot;&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;neutral dark&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-fill-neutral-dark&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-fill-neutral-light&quot;&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;neutral light&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-fill-neutral-light&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-fill-neutral-lighter&quot;&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;neutral lighter&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-fill-neutral-lighter&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-fill-neutral-lightest&quot;&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;neutral lightest&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-fill-neutral-lightest&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-fill-contextual-success&quot;&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;contextual success&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-fill-contextual-success&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-fill-contextual-success-light&quot;&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;contextual success light&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-fill-contextual-success-light&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-fill-contextual-warning&quot;&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;contextual warning&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-fill-contextual-warning&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-fill-contextual-warning-light&quot;&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;contextual warning light&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-fill-contextual-warning-light&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-fill-contextual-error&quot;&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;contextual error&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-fill-contextual-error&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-fill-contextual-error-light&quot;&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;contextual error light&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-fill-contextual-error-light&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-fill-contextual-info&quot;&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;contextual info&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-fill-contextual-info&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-fill-contextual-info-light&quot;&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;contextual info light&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-fill-contextual-info-light&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-fill-social-twitter&quot;&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;social twitter&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-fill-social-twitter&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-fill-social-facebook&quot;&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;social facebook&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-fill-social-facebook&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-fill-social-google&quot;&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;social google&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-fill-social-google&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-fill-social-pinterest&quot;&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;social pinterest&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-fill-social-pinterest&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-fill-social-instagram&quot;&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;social instagram&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-fill-social-instagram&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-fill-social-vimeo&quot;&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;social vimeo&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-fill-social-vimeo&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-fill-social-linkedin&quot;&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;social linkedin&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-fill-social-linkedin&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-fill-social-youtube&quot;&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;social youtube&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-fill-social-youtube&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-fill-social-tumblr&quot;&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;social tumblr&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-fill-social-tumblr&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+</code></pre>
+            </div>
+        </div>
+        
+        <div class="cc-demo">
+            <div class="cc-demo__header">
+                <p>Text</p>
+                <ul>
+                    <li><a href="#" data-cc-toggle-action="toggle" data-cc-toggle-target="#cc-code-text-8">Code</a></li>
+                    <li><a href="color/textf587.html?preview=true">Preview</a></li>
+                </ul>
+            </div>
+            <div class="cc-demo__demo">
+                
+<div class="grid g-gutter">
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-text-primary-pink">
+                    <strong>Text</strong>
+                </div>
+                <div class="cc-color__body">
+                    <h6>primary pink</h6>
+                    <p><code>.u-text-primary-pink</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-text-neutral-black">
+                    <strong>Text</strong>
+                </div>
+                <div class="cc-color__body">
+                    <h6>neutral black</h6>
+                    <p><code>.u-text-neutral-black</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-text-neutral-white">
+                    <strong>Text</strong>
+                </div>
+                <div class="cc-color__body">
+                    <h6>neutral white</h6>
+                    <p><code>.u-text-neutral-white</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-text-neutral-darkest">
+                    <strong>Text</strong>
+                </div>
+                <div class="cc-color__body">
+                    <h6>neutral darkest</h6>
+                    <p><code>.u-text-neutral-darkest</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-text-neutral-darker">
+                    <strong>Text</strong>
+                </div>
+                <div class="cc-color__body">
+                    <h6>neutral darker</h6>
+                    <p><code>.u-text-neutral-darker</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-text-neutral-dark">
+                    <strong>Text</strong>
+                </div>
+                <div class="cc-color__body">
+                    <h6>neutral dark</h6>
+                    <p><code>.u-text-neutral-dark</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-text-neutral-light">
+                    <strong>Text</strong>
+                </div>
+                <div class="cc-color__body">
+                    <h6>neutral light</h6>
+                    <p><code>.u-text-neutral-light</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-text-neutral-lighter">
+                    <strong>Text</strong>
+                </div>
+                <div class="cc-color__body">
+                    <h6>neutral lighter</h6>
+                    <p><code>.u-text-neutral-lighter</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-text-neutral-lightest">
+                    <strong>Text</strong>
+                </div>
+                <div class="cc-color__body">
+                    <h6>neutral lightest</h6>
+                    <p><code>.u-text-neutral-lightest</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-text-contextual-success">
+                    <strong>Text</strong>
+                </div>
+                <div class="cc-color__body">
+                    <h6>contextual success</h6>
+                    <p><code>.u-text-contextual-success</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-text-contextual-success-light">
+                    <strong>Text</strong>
+                </div>
+                <div class="cc-color__body">
+                    <h6>contextual success light</h6>
+                    <p><code>.u-text-contextual-success-light</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-text-contextual-warning">
+                    <strong>Text</strong>
+                </div>
+                <div class="cc-color__body">
+                    <h6>contextual warning</h6>
+                    <p><code>.u-text-contextual-warning</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-text-contextual-warning-light">
+                    <strong>Text</strong>
+                </div>
+                <div class="cc-color__body">
+                    <h6>contextual warning light</h6>
+                    <p><code>.u-text-contextual-warning-light</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-text-contextual-error">
+                    <strong>Text</strong>
+                </div>
+                <div class="cc-color__body">
+                    <h6>contextual error</h6>
+                    <p><code>.u-text-contextual-error</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-text-contextual-error-light">
+                    <strong>Text</strong>
+                </div>
+                <div class="cc-color__body">
+                    <h6>contextual error light</h6>
+                    <p><code>.u-text-contextual-error-light</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-text-contextual-info">
+                    <strong>Text</strong>
+                </div>
+                <div class="cc-color__body">
+                    <h6>contextual info</h6>
+                    <p><code>.u-text-contextual-info</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-text-contextual-info-light">
+                    <strong>Text</strong>
+                </div>
+                <div class="cc-color__body">
+                    <h6>contextual info light</h6>
+                    <p><code>.u-text-contextual-info-light</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-text-social-twitter">
+                    <strong>Text</strong>
+                </div>
+                <div class="cc-color__body">
+                    <h6>social twitter</h6>
+                    <p><code>.u-text-social-twitter</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-text-social-facebook">
+                    <strong>Text</strong>
+                </div>
+                <div class="cc-color__body">
+                    <h6>social facebook</h6>
+                    <p><code>.u-text-social-facebook</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-text-social-google">
+                    <strong>Text</strong>
+                </div>
+                <div class="cc-color__body">
+                    <h6>social google</h6>
+                    <p><code>.u-text-social-google</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-text-social-pinterest">
+                    <strong>Text</strong>
+                </div>
+                <div class="cc-color__body">
+                    <h6>social pinterest</h6>
+                    <p><code>.u-text-social-pinterest</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-text-social-instagram">
+                    <strong>Text</strong>
+                </div>
+                <div class="cc-color__body">
+                    <h6>social instagram</h6>
+                    <p><code>.u-text-social-instagram</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-text-social-vimeo">
+                    <strong>Text</strong>
+                </div>
+                <div class="cc-color__body">
+                    <h6>social vimeo</h6>
+                    <p><code>.u-text-social-vimeo</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-text-social-linkedin">
+                    <strong>Text</strong>
+                </div>
+                <div class="cc-color__body">
+                    <h6>social linkedin</h6>
+                    <p><code>.u-text-social-linkedin</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-text-social-youtube">
+                    <strong>Text</strong>
+                </div>
+                <div class="cc-color__body">
+                    <h6>social youtube</h6>
+                    <p><code>.u-text-social-youtube</code></p>
+                </div>
+            </div>
+        </div>
+            <div class="g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2">
+            <div class="cc-color">
+                <div class="cc-color__swatch u-text-social-tumblr">
+                    <strong>Text</strong>
+                </div>
+                <div class="cc-color__body">
+                    <h6>social tumblr</h6>
+                    <p><code>.u-text-social-tumblr</code></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            </div>
+            <div class="cc-demo__code u-toggle" id="cc-code-text-8" data-cc-toggle-group="cc-section-text">
+                <pre><code class="language-html">
+&lt;div class=&quot;grid g-gutter&quot;&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-text-primary-pink&quot;&gt;
+                    &lt;strong&gt;Text&lt;/strong&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;primary pink&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-text-primary-pink&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-text-neutral-black&quot;&gt;
+                    &lt;strong&gt;Text&lt;/strong&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;neutral black&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-text-neutral-black&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-text-neutral-white&quot;&gt;
+                    &lt;strong&gt;Text&lt;/strong&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;neutral white&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-text-neutral-white&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-text-neutral-darkest&quot;&gt;
+                    &lt;strong&gt;Text&lt;/strong&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;neutral darkest&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-text-neutral-darkest&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-text-neutral-darker&quot;&gt;
+                    &lt;strong&gt;Text&lt;/strong&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;neutral darker&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-text-neutral-darker&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-text-neutral-dark&quot;&gt;
+                    &lt;strong&gt;Text&lt;/strong&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;neutral dark&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-text-neutral-dark&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-text-neutral-light&quot;&gt;
+                    &lt;strong&gt;Text&lt;/strong&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;neutral light&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-text-neutral-light&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-text-neutral-lighter&quot;&gt;
+                    &lt;strong&gt;Text&lt;/strong&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;neutral lighter&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-text-neutral-lighter&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-text-neutral-lightest&quot;&gt;
+                    &lt;strong&gt;Text&lt;/strong&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;neutral lightest&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-text-neutral-lightest&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-text-contextual-success&quot;&gt;
+                    &lt;strong&gt;Text&lt;/strong&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;contextual success&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-text-contextual-success&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-text-contextual-success-light&quot;&gt;
+                    &lt;strong&gt;Text&lt;/strong&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;contextual success light&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-text-contextual-success-light&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-text-contextual-warning&quot;&gt;
+                    &lt;strong&gt;Text&lt;/strong&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;contextual warning&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-text-contextual-warning&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-text-contextual-warning-light&quot;&gt;
+                    &lt;strong&gt;Text&lt;/strong&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;contextual warning light&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-text-contextual-warning-light&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-text-contextual-error&quot;&gt;
+                    &lt;strong&gt;Text&lt;/strong&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;contextual error&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-text-contextual-error&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-text-contextual-error-light&quot;&gt;
+                    &lt;strong&gt;Text&lt;/strong&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;contextual error light&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-text-contextual-error-light&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-text-contextual-info&quot;&gt;
+                    &lt;strong&gt;Text&lt;/strong&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;contextual info&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-text-contextual-info&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-text-contextual-info-light&quot;&gt;
+                    &lt;strong&gt;Text&lt;/strong&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;contextual info light&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-text-contextual-info-light&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-text-social-twitter&quot;&gt;
+                    &lt;strong&gt;Text&lt;/strong&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;social twitter&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-text-social-twitter&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-text-social-facebook&quot;&gt;
+                    &lt;strong&gt;Text&lt;/strong&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;social facebook&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-text-social-facebook&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-text-social-google&quot;&gt;
+                    &lt;strong&gt;Text&lt;/strong&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;social google&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-text-social-google&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-text-social-pinterest&quot;&gt;
+                    &lt;strong&gt;Text&lt;/strong&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;social pinterest&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-text-social-pinterest&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-text-social-instagram&quot;&gt;
+                    &lt;strong&gt;Text&lt;/strong&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;social instagram&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-text-social-instagram&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-text-social-vimeo&quot;&gt;
+                    &lt;strong&gt;Text&lt;/strong&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;social vimeo&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-text-social-vimeo&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-text-social-linkedin&quot;&gt;
+                    &lt;strong&gt;Text&lt;/strong&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;social linkedin&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-text-social-linkedin&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-text-social-youtube&quot;&gt;
+                    &lt;strong&gt;Text&lt;/strong&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;social youtube&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-text-social-youtube&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            &lt;div class=&quot;g-col-xs-6 g-col-sm-4 g-col-lg-3 g-col-xl-2&quot;&gt;
+            &lt;div class=&quot;cc-color&quot;&gt;
+                &lt;div class=&quot;cc-color__swatch u-text-social-tumblr&quot;&gt;
+                    &lt;strong&gt;Text&lt;/strong&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;cc-color__body&quot;&gt;
+                    &lt;h6&gt;social tumblr&lt;/h6&gt;
+                    &lt;p&gt;&lt;code&gt;.u-text-social-tumblr&lt;/code&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+</code></pre>
+            </div>
+        </div>
+        </div></div><div class="cc-pattern"><span class="cc-pattern__anchor" id="section-container"></span><div class="cc-pattern__header"><h3><a href="#section-container"><svg class="icon icon--lg">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../build/img/vector/general/symbol/sprite-symbol.svg#link"></use>
+        </svg> Container</a></h3></div><div class="cc-pattern__body"><div class="cc-pattern__doc"><p>Containers are centered with various max widths.</p>
+<h5>Available classes:</h5>
+
+<div class="cc-classes">
+    <ul>
+                    <li><code>.u-container</code></li>
+                    <li><code>.u-container-sm</code></li>
+                    <li><code>.u-container-md</code></li>
+                    <li><code>.u-container-lg</code></li>
+                    <li><code>.u-container-xl</code></li>
+            </ul>
+</div>
+</div>
+        <div class="cc-demo">
+            <div class="cc-demo__header">
+                <p>Base</p>
+                <ul>
+                    <li><a href="#" data-cc-toggle-action="toggle" data-cc-toggle-target="#cc-code-base-9">Code</a></li>
+                    <li><a href="container/basef587.html?preview=true">Preview</a></li>
+                </ul>
+            </div>
+            <div class="cc-demo__demo">
+                <div class="u-container">
+    <div class="u-block u-fill-neutral-lighter">I am in a container</div>
+</div>
+
+            </div>
+            <div class="cc-demo__code u-toggle" id="cc-code-base-9" data-cc-toggle-group="cc-section-base">
+                <pre><code class="language-html">&lt;div class=&quot;u-container&quot;&gt;
+    &lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;I am in a container&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+            </div>
+        </div>
+        </div></div><div class="cc-pattern"><span class="cc-pattern__anchor" id="section-full-height"></span><div class="cc-pattern__header"><h3><a href="#section-full-height"><svg class="icon icon--lg">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../build/img/vector/general/symbol/sprite-symbol.svg#link"></use>
+        </svg> Full Height</a></h3></div><div class="cc-pattern__body">
+        <div class="cc-demo">
+            <div class="cc-demo__header">
+                <p>Base</p>
+                <ul>
+                    <li><a href="#" data-cc-toggle-action="toggle" data-cc-toggle-target="#cc-code-base-10">Code</a></li>
+                    <li><a href="full-height/basef587.html?preview=true">Preview</a></li>
+                </ul>
+            </div>
+            <div class="cc-demo__demo">
+                <div class="grid g-gutter">
+    <div class="g-col-xs-6 u-full-height">
+        <div class="u-fill-neutral-lighter">
+            1<br>
+            2<br>
+            3
+        </div>
+    </div>
+    <div class="g-col-xs-6 u-full-height">
+        <div class="u-fill-neutral-lighter">
+            1
+        </div>
+    </div>
+</div>
+
+            </div>
+            <div class="cc-demo__code u-toggle" id="cc-code-base-10" data-cc-toggle-group="cc-section-base">
+                <pre><code class="language-html">&lt;div class=&quot;grid g-gutter&quot;&gt;
+    &lt;div class=&quot;g-col-xs-6 u-full-height&quot;&gt;
+        &lt;div class=&quot;u-fill-neutral-lighter&quot;&gt;
+            1&lt;br&gt;
+            2&lt;br&gt;
+            3
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;g-col-xs-6 u-full-height&quot;&gt;
+        &lt;div class=&quot;u-fill-neutral-lighter&quot;&gt;
+            1
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+            </div>
+        </div>
+        </div></div><div class="cc-pattern"><span class="cc-pattern__anchor" id="section-grid"></span><div class="cc-pattern__header"><h3><a href="#section-grid"><svg class="icon icon--lg">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../build/img/vector/general/symbol/sprite-symbol.svg#link"></use>
+        </svg> Grid</a></h3></div><div class="cc-pattern__body"><div class="cc-pattern__doc"><h4>Columns</h4>
+<p>Grids are 12 columns at all screen sizes. At each breakpoint columns can be adapted. The following classes are available for columns:</p>
+
+<div class="cc-classes">
+    <ul>
+                    <li><code>.g-col-xs-1</code></li>
+                    <li><code>.g-col-xs-2</code></li>
+                    <li><code>.g-col-xs-3</code></li>
+                    <li><code>.g-col-xs-4</code></li>
+                    <li><code>.g-col-xs-5</code></li>
+                    <li><code>.g-col-xs-6</code></li>
+                    <li><code>.g-col-xs-7</code></li>
+                    <li><code>.g-col-xs-8</code></li>
+                    <li><code>.g-col-xs-9</code></li>
+                    <li><code>.g-col-xs-10</code></li>
+                    <li><code>.g-col-xs-11</code></li>
+                    <li><code>.g-col-xs-12</code></li>
+                    <li><code>.g-col-sm-1</code></li>
+                    <li><code>.g-col-sm-2</code></li>
+                    <li><code>.g-col-sm-3</code></li>
+                    <li><code>.g-col-sm-4</code></li>
+                    <li><code>.g-col-sm-5</code></li>
+                    <li><code>.g-col-sm-6</code></li>
+                    <li><code>.g-col-sm-7</code></li>
+                    <li><code>.g-col-sm-8</code></li>
+                    <li><code>.g-col-sm-9</code></li>
+                    <li><code>.g-col-sm-10</code></li>
+                    <li><code>.g-col-sm-11</code></li>
+                    <li><code>.g-col-sm-12</code></li>
+                    <li><code>.g-col-md-1</code></li>
+                    <li><code>.g-col-md-2</code></li>
+                    <li><code>.g-col-md-3</code></li>
+                    <li><code>.g-col-md-4</code></li>
+                    <li><code>.g-col-md-5</code></li>
+                    <li><code>.g-col-md-6</code></li>
+                    <li><code>.g-col-md-7</code></li>
+                    <li><code>.g-col-md-8</code></li>
+                    <li><code>.g-col-md-9</code></li>
+                    <li><code>.g-col-md-10</code></li>
+                    <li><code>.g-col-md-11</code></li>
+                    <li><code>.g-col-md-12</code></li>
+                    <li><code>.g-col-lg-1</code></li>
+                    <li><code>.g-col-lg-2</code></li>
+                    <li><code>.g-col-lg-3</code></li>
+                    <li><code>.g-col-lg-4</code></li>
+                    <li><code>.g-col-lg-5</code></li>
+                    <li><code>.g-col-lg-6</code></li>
+                    <li><code>.g-col-lg-7</code></li>
+                    <li><code>.g-col-lg-8</code></li>
+                    <li><code>.g-col-lg-9</code></li>
+                    <li><code>.g-col-lg-10</code></li>
+                    <li><code>.g-col-lg-11</code></li>
+                    <li><code>.g-col-lg-12</code></li>
+                    <li><code>.g-col-xl-1</code></li>
+                    <li><code>.g-col-xl-2</code></li>
+                    <li><code>.g-col-xl-3</code></li>
+                    <li><code>.g-col-xl-4</code></li>
+                    <li><code>.g-col-xl-5</code></li>
+                    <li><code>.g-col-xl-6</code></li>
+                    <li><code>.g-col-xl-7</code></li>
+                    <li><code>.g-col-xl-8</code></li>
+                    <li><code>.g-col-xl-9</code></li>
+                    <li><code>.g-col-xl-10</code></li>
+                    <li><code>.g-col-xl-11</code></li>
+                    <li><code>.g-col-xl-12</code></li>
+            </ul>
+</div>
+
+
+<h4>Gutters</h4>
+<p>Gutters add spacing on the left and right of each column. All gutters are available for both x and y, just x or just y. Classes available for gutters:</p>
+
+<div class="cc-classes">
+    <ul>
+                    <li><code>.g-gutter-x</code></li>
+                    <li><code>.g-gutter</code></li>
+                    <li><code>.g-gutter-y</code></li>
+                    <li><code>.g-gutter-x-sm</code></li>
+                    <li><code>.g-gutter-sm</code></li>
+                    <li><code>.g-gutter-y-sm</code></li>
+                    <li><code>.g-gutter-x-lg</code></li>
+                    <li><code>.g-gutter-lg</code></li>
+                    <li><code>.g-gutter-y-lg</code></li>
+            </ul>
+</div>
+
+
+<h4>Center</h4>
+<p>Grids can be centered vertically, horizontally or both at the same time. Classes available:</p>
+
+<div class="cc-classes">
+    <ul>
+                    <li><code>.g-center-x</code></li>
+                    <li><code>.g-center-y</code></li>
+                    <li><code>.g-center</code></li>
+            </ul>
+</div>
+</div>
+        <div class="cc-demo">
+            <div class="cc-demo__header">
+                <p>Base</p>
+                <ul>
+                    <li><a href="#" data-cc-toggle-action="toggle" data-cc-toggle-target="#cc-code-base-11">Code</a></li>
+                    <li><a href="grid/basef587.html?preview=true">Preview</a></li>
+                </ul>
+            </div>
+            <div class="cc-demo__demo">
+                <div class="grid g-gutter">
+    <div class="g-col-xs-12"><div class="u-block u-fill-neutral-lighter"></div></div>
+</div>
+
+<div class="grid g-gutter">
+    <div class="g-col-xs-6"><div class="u-block u-fill-neutral-lighter"></div></div>
+    <div class="g-col-xs-6"><div class="u-block u-fill-neutral-lighter"></div></div>
+</div>
+
+<div class="grid g-gutter">
+    <div class="g-col-xs-4"><div class="u-block u-fill-neutral-lighter"></div></div>
+    <div class="g-col-xs-4"><div class="u-block u-fill-neutral-lighter"></div></div>
+    <div class="g-col-xs-4"><div class="u-block u-fill-neutral-lighter"></div></div>
+</div>
+
+<div class="grid g-gutter">
+    <div class="g-col-xs-3"><div class="u-block u-fill-neutral-lighter"></div></div>
+    <div class="g-col-xs-3"><div class="u-block u-fill-neutral-lighter"></div></div>
+    <div class="g-col-xs-3"><div class="u-block u-fill-neutral-lighter"></div></div>
+    <div class="g-col-xs-3"><div class="u-block u-fill-neutral-lighter"></div></div>
+</div>
+
+<div class="grid g-gutter">
+    <div class="g-col-xs-2"><div class="u-block u-fill-neutral-lighter"></div></div>
+    <div class="g-col-xs-2"><div class="u-block u-fill-neutral-lighter"></div></div>
+    <div class="g-col-xs-2"><div class="u-block u-fill-neutral-lighter"></div></div>
+    <div class="g-col-xs-2"><div class="u-block u-fill-neutral-lighter"></div></div>
+    <div class="g-col-xs-2"><div class="u-block u-fill-neutral-lighter"></div></div>
+    <div class="g-col-xs-2"><div class="u-block u-fill-neutral-lighter"></div></div>
+</div>
+
+<div class="grid g-gutter">
+    <div class="g-col-xs-1"><div class="u-block u-fill-neutral-lighter"></div></div>
+    <div class="g-col-xs-1"><div class="u-block u-fill-neutral-lighter"></div></div>
+    <div class="g-col-xs-1"><div class="u-block u-fill-neutral-lighter"></div></div>
+    <div class="g-col-xs-1"><div class="u-block u-fill-neutral-lighter"></div></div>
+    <div class="g-col-xs-1"><div class="u-block u-fill-neutral-lighter"></div></div>
+    <div class="g-col-xs-1"><div class="u-block u-fill-neutral-lighter"></div></div>
+    <div class="g-col-xs-1"><div class="u-block u-fill-neutral-lighter"></div></div>
+    <div class="g-col-xs-1"><div class="u-block u-fill-neutral-lighter"></div></div>
+    <div class="g-col-xs-1"><div class="u-block u-fill-neutral-lighter"></div></div>
+    <div class="g-col-xs-1"><div class="u-block u-fill-neutral-lighter"></div></div>
+    <div class="g-col-xs-1"><div class="u-block u-fill-neutral-lighter"></div></div>
+    <div class="g-col-xs-1"><div class="u-block u-fill-neutral-lighter"></div></div>
+</div>
+
+            </div>
+            <div class="cc-demo__code u-toggle" id="cc-code-base-11" data-cc-toggle-group="cc-section-base">
+                <pre><code class="language-html">&lt;div class=&quot;grid g-gutter&quot;&gt;
+    &lt;div class=&quot;g-col-xs-12&quot;&gt;&lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;grid g-gutter&quot;&gt;
+    &lt;div class=&quot;g-col-xs-6&quot;&gt;&lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&quot;g-col-xs-6&quot;&gt;&lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;grid g-gutter&quot;&gt;
+    &lt;div class=&quot;g-col-xs-4&quot;&gt;&lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&quot;g-col-xs-4&quot;&gt;&lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&quot;g-col-xs-4&quot;&gt;&lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;grid g-gutter&quot;&gt;
+    &lt;div class=&quot;g-col-xs-3&quot;&gt;&lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&quot;g-col-xs-3&quot;&gt;&lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&quot;g-col-xs-3&quot;&gt;&lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&quot;g-col-xs-3&quot;&gt;&lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;grid g-gutter&quot;&gt;
+    &lt;div class=&quot;g-col-xs-2&quot;&gt;&lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&quot;g-col-xs-2&quot;&gt;&lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&quot;g-col-xs-2&quot;&gt;&lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&quot;g-col-xs-2&quot;&gt;&lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&quot;g-col-xs-2&quot;&gt;&lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&quot;g-col-xs-2&quot;&gt;&lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;grid g-gutter&quot;&gt;
+    &lt;div class=&quot;g-col-xs-1&quot;&gt;&lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&quot;g-col-xs-1&quot;&gt;&lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&quot;g-col-xs-1&quot;&gt;&lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&quot;g-col-xs-1&quot;&gt;&lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&quot;g-col-xs-1&quot;&gt;&lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&quot;g-col-xs-1&quot;&gt;&lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&quot;g-col-xs-1&quot;&gt;&lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&quot;g-col-xs-1&quot;&gt;&lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&quot;g-col-xs-1&quot;&gt;&lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&quot;g-col-xs-1&quot;&gt;&lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&quot;g-col-xs-1&quot;&gt;&lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&quot;g-col-xs-1&quot;&gt;&lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+            </div>
+        </div>
+        
+        <div class="cc-demo">
+            <div class="cc-demo__header">
+                <p>Collapse</p>
+                <ul>
+                    <li><a href="#" data-cc-toggle-action="toggle" data-cc-toggle-target="#cc-code-collapse-12">Code</a></li>
+                    <li><a href="grid/collapsef587.html?preview=true">Preview</a></li>
+                </ul>
+            </div>
+            <div class="cc-demo__demo">
+                <div class="grid g-gutter-x g-collapse">
+    <div>
+        <div class="u-block u-fill-neutral-lighter"></div>
+    </div>
+    <div>
+        <div class="u-block u-fill-neutral-lighter"></div>
+    </div>
+</div>
+
+            </div>
+            <div class="cc-demo__code u-toggle" id="cc-code-collapse-12" data-cc-toggle-group="cc-section-collapse">
+                <pre><code class="language-html">&lt;div class=&quot;grid g-gutter-x g-collapse&quot;&gt;
+    &lt;div&gt;
+        &lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+        &lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+            </div>
+        </div>
+        
+        <div class="cc-demo">
+            <div class="cc-demo__header">
+                <p>Reverse</p>
+                <ul>
+                    <li><a href="#" data-cc-toggle-action="toggle" data-cc-toggle-target="#cc-code-reverse-13">Code</a></li>
+                    <li><a href="grid/reversef587.html?preview=true">Preview</a></li>
+                </ul>
+            </div>
+            <div class="cc-demo__demo">
+                <div class="grid g-gutter-x g-reverse">
+    <div class="g-col-xs-3"><div class="u-block u-fill-neutral-lighter">1</div></div>
+    <div class="g-col-xs-3"><div class="u-block u-fill-neutral-lighter">2</div></div>
+    <div class="g-col-xs-3"><div class="u-block u-fill-neutral-lighter">3</div></div>
+    <div class="g-col-xs-3"><div class="u-block u-fill-neutral-lighter">4</div></div>
+</div>
+
+            </div>
+            <div class="cc-demo__code u-toggle" id="cc-code-reverse-13" data-cc-toggle-group="cc-section-reverse">
+                <pre><code class="language-html">&lt;div class=&quot;grid g-gutter-x g-reverse&quot;&gt;
+    &lt;div class=&quot;g-col-xs-3&quot;&gt;&lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;1&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&quot;g-col-xs-3&quot;&gt;&lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;2&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&quot;g-col-xs-3&quot;&gt;&lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;3&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&quot;g-col-xs-3&quot;&gt;&lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;4&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+            </div>
+        </div>
+        
+        <div class="cc-demo">
+            <div class="cc-demo__header">
+                <p>Space</p>
+                <ul>
+                    <li><a href="#" data-cc-toggle-action="toggle" data-cc-toggle-target="#cc-code-space-14">Code</a></li>
+                    <li><a href="grid/spacef587.html?preview=true">Preview</a></li>
+                </ul>
+            </div>
+            <div class="cc-demo__demo">
+                <div class="grid g-space">
+    <div class="g-col-xs-3"><div class="u-block u-fill-neutral-lighter"></div></div>
+    <div class="g-col-xs-3"><div class="u-block u-fill-neutral-lighter"></div></div>
+</div>
+
+            </div>
+            <div class="cc-demo__code u-toggle" id="cc-code-space-14" data-cc-toggle-group="cc-section-space">
+                <pre><code class="language-html">&lt;div class=&quot;grid g-space&quot;&gt;
+    &lt;div class=&quot;g-col-xs-3&quot;&gt;&lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+    &lt;div class=&quot;g-col-xs-3&quot;&gt;&lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+            </div>
+        </div>
+        
+        <div class="cc-demo">
+            <div class="cc-demo__header">
+                <p>Stretch First</p>
+                <ul>
+                    <li><a href="#" data-cc-toggle-action="toggle" data-cc-toggle-target="#cc-code-stretch-first-15">Code</a></li>
+                    <li><a href="grid/stretch-firstf587.html?preview=true">Preview</a></li>
+                </ul>
+            </div>
+            <div class="cc-demo__demo">
+                <div class="grid g-gutter-x g-stretch-first">
+    <div>
+        <div class="u-block u-fill-neutral-lighter"></div>
+    </div>
+    <div>
+        <div class="u-block u-fill-neutral-lighter"></div>
+    </div>
+</div>
+
+            </div>
+            <div class="cc-demo__code u-toggle" id="cc-code-stretch-first-15" data-cc-toggle-group="cc-section-stretch-first">
+                <pre><code class="language-html">&lt;div class=&quot;grid g-gutter-x g-stretch-first&quot;&gt;
+    &lt;div&gt;
+        &lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+        &lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+            </div>
+        </div>
+        
+        <div class="cc-demo">
+            <div class="cc-demo__header">
+                <p>Stretch Last</p>
+                <ul>
+                    <li><a href="#" data-cc-toggle-action="toggle" data-cc-toggle-target="#cc-code-stretch-last-16">Code</a></li>
+                    <li><a href="grid/stretch-lastf587.html?preview=true">Preview</a></li>
+                </ul>
+            </div>
+            <div class="cc-demo__demo">
+                <div class="grid g-gutter-x g-stretch-last">
+    <div>
+        <div class="u-block u-fill-neutral-lighter"></div>
+    </div>
+    <div>
+        <div class="u-block u-fill-neutral-lighter"></div>
+    </div>
+</div>
+
+            </div>
+            <div class="cc-demo__code u-toggle" id="cc-code-stretch-last-16" data-cc-toggle-group="cc-section-stretch-last">
+                <pre><code class="language-html">&lt;div class=&quot;grid g-gutter-x g-stretch-last&quot;&gt;
+    &lt;div&gt;
+        &lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+        &lt;div class=&quot;u-block u-fill-neutral-lighter&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+            </div>
+        </div>
+        </div></div><div class="cc-pattern"><span class="cc-pattern__anchor" id="section-list"></span><div class="cc-pattern__header"><h3><a href="#section-list"><svg class="icon icon--lg">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../build/img/vector/general/symbol/sprite-symbol.svg#link"></use>
+        </svg> List</a></h3></div><div class="cc-pattern__body">
+        <div class="cc-demo">
+            <div class="cc-demo__header">
+                <p>Inline</p>
+                <ul>
+                    <li><a href="#" data-cc-toggle-action="toggle" data-cc-toggle-target="#cc-code-inline-17">Code</a></li>
+                    <li><a href="list/inlinef587.html?preview=true">Preview</a></li>
+                </ul>
+            </div>
+            <div class="cc-demo__demo">
+                <ul class="u-list-inline">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+    <li>Item 5</li>
+</ul>
+
+            </div>
+            <div class="cc-demo__code u-toggle" id="cc-code-inline-17" data-cc-toggle-group="cc-section-inline">
+                <pre><code class="language-html">&lt;ul class=&quot;u-list-inline&quot;&gt;
+    &lt;li&gt;Item 1&lt;/li&gt;
+    &lt;li&gt;Item 2&lt;/li&gt;
+    &lt;li&gt;Item 3&lt;/li&gt;
+    &lt;li&gt;Item 4&lt;/li&gt;
+    &lt;li&gt;Item 5&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+            </div>
+        </div>
+        
+        <div class="cc-demo">
+            <div class="cc-demo__header">
+                <p>Ordered</p>
+                <ul>
+                    <li><a href="#" data-cc-toggle-action="toggle" data-cc-toggle-target="#cc-code-ordered-18">Code</a></li>
+                    <li><a href="list/orderedf587.html?preview=true">Preview</a></li>
+                </ul>
+            </div>
+            <div class="cc-demo__demo">
+                <ul class="u-list-ordered">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+    <li>Item 5</li>
+</ul>
+
+            </div>
+            <div class="cc-demo__code u-toggle" id="cc-code-ordered-18" data-cc-toggle-group="cc-section-ordered">
+                <pre><code class="language-html">&lt;ul class=&quot;u-list-ordered&quot;&gt;
+    &lt;li&gt;Item 1&lt;/li&gt;
+    &lt;li&gt;Item 2&lt;/li&gt;
+    &lt;li&gt;Item 3&lt;/li&gt;
+    &lt;li&gt;Item 4&lt;/li&gt;
+    &lt;li&gt;Item 5&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+            </div>
+        </div>
+        
+        <div class="cc-demo">
+            <div class="cc-demo__header">
+                <p>Unordered</p>
+                <ul>
+                    <li><a href="#" data-cc-toggle-action="toggle" data-cc-toggle-target="#cc-code-unordered-19">Code</a></li>
+                    <li><a href="list/unorderedf587.html?preview=true">Preview</a></li>
+                </ul>
+            </div>
+            <div class="cc-demo__demo">
+                <ol class="u-list-unordered">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+    <li>Item 5</li>
+</ol>
+
+            </div>
+            <div class="cc-demo__code u-toggle" id="cc-code-unordered-19" data-cc-toggle-group="cc-section-unordered">
+                <pre><code class="language-html">&lt;ol class=&quot;u-list-unordered&quot;&gt;
+    &lt;li&gt;Item 1&lt;/li&gt;
+    &lt;li&gt;Item 2&lt;/li&gt;
+    &lt;li&gt;Item 3&lt;/li&gt;
+    &lt;li&gt;Item 4&lt;/li&gt;
+    &lt;li&gt;Item 5&lt;/li&gt;
+&lt;/ol&gt;
+</code></pre>
+            </div>
+        </div>
+        
+        <div class="cc-demo">
+            <div class="cc-demo__header">
+                <p>Unstyled</p>
+                <ul>
+                    <li><a href="#" data-cc-toggle-action="toggle" data-cc-toggle-target="#cc-code-unstyled-20">Code</a></li>
+                    <li><a href="list/unstyledf587.html?preview=true">Preview</a></li>
+                </ul>
+            </div>
+            <div class="cc-demo__demo">
+                <ol class="u-list-unstyled">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+    <li>Item 5</li>
+</ol>
+
+            </div>
+            <div class="cc-demo__code u-toggle" id="cc-code-unstyled-20" data-cc-toggle-group="cc-section-unstyled">
+                <pre><code class="language-html">&lt;ol class=&quot;u-list-unstyled&quot;&gt;
+    &lt;li&gt;Item 1&lt;/li&gt;
+    &lt;li&gt;Item 2&lt;/li&gt;
+    &lt;li&gt;Item 3&lt;/li&gt;
+    &lt;li&gt;Item 4&lt;/li&gt;
+    &lt;li&gt;Item 5&lt;/li&gt;
+&lt;/ol&gt;
+</code></pre>
+            </div>
+        </div>
+        </div></div><div class="cc-pattern"><span class="cc-pattern__anchor" id="section-ratio"></span><div class="cc-pattern__header"><h3><a href="#section-ratio"><svg class="icon icon--lg">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../build/img/vector/general/symbol/sprite-symbol.svg#link"></use>
+        </svg> Ratio</a></h3></div><div class="cc-pattern__body"><div class="cc-pattern__doc"><p>Makes an element a fixed ratio. Default is square with options for 16x9 and 4x3. Direct descendants fill the area. Images keep aspect ratio and will not stretch above their natural size.</p>
+</div>
+        <div class="cc-demo">
+            <div class="cc-demo__header">
+                <p>Base</p>
+                <ul>
+                    <li><a href="#" data-cc-toggle-action="toggle" data-cc-toggle-target="#cc-code-base-21">Code</a></li>
+                    <li><a href="ratio/basef587.html?preview=true">Preview</a></li>
+                </ul>
+            </div>
+            <div class="cc-demo__demo">
+                <div class="u-ratio u-fill-neutral-light cc-pattern-width-sm">
+    <img src="../../build/img/placeholder/300x300.jpg" />
+</div>
+
+            </div>
+            <div class="cc-demo__code u-toggle" id="cc-code-base-21" data-cc-toggle-group="cc-section-base">
+                <pre><code class="language-html">&lt;div class=&quot;u-ratio u-fill-neutral-light cc-pattern-width-sm&quot;&gt;
+    &lt;img src=&quot;/build/img/placeholder/300x300.jpg&quot; /&gt;
+&lt;/div&gt;
+</code></pre>
+            </div>
+        </div>
+        
+        <div class="cc-demo">
+            <div class="cc-demo__header">
+                <p>16x9</p>
+                <ul>
+                    <li><a href="#" data-cc-toggle-action="toggle" data-cc-toggle-target="#cc-code-16x9-22">Code</a></li>
+                    <li><a href="ratio/16x9f587.html?preview=true">Preview</a></li>
+                </ul>
+            </div>
+            <div class="cc-demo__demo">
+                <div class="u-ratio u-ratio--16x9 cc-pattern-width-lg">
+    <iframe src="https://www.youtube.com/embed/qrO4YZeyl0I" frameborder="0" allowfullscreen=""></iframe>
+</div>
+
+            </div>
+            <div class="cc-demo__code u-toggle" id="cc-code-16x9-22" data-cc-toggle-group="cc-section-16x9">
+                <pre><code class="language-html">&lt;div class=&quot;u-ratio u-ratio--16x9 cc-pattern-width-lg&quot;&gt;
+    &lt;iframe src=&quot;https://www.youtube.com/embed/qrO4YZeyl0I&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</code></pre>
+            </div>
+        </div>
+        
+        <div class="cc-demo">
+            <div class="cc-demo__header">
+                <p>4x3</p>
+                <ul>
+                    <li><a href="#" data-cc-toggle-action="toggle" data-cc-toggle-target="#cc-code-4x3-23">Code</a></li>
+                    <li><a href="ratio/4x3f587.html?preview=true">Preview</a></li>
+                </ul>
+            </div>
+            <div class="cc-demo__demo">
+                <div class="u-ratio u-ratio--4x3 cc-pattern-width-lg">
+    <iframe src="https://www.youtube.com/embed/qrO4YZeyl0I" frameborder="0" allowfullscreen=""></iframe>
+</div>
+
+            </div>
+            <div class="cc-demo__code u-toggle" id="cc-code-4x3-23" data-cc-toggle-group="cc-section-4x3">
+                <pre><code class="language-html">&lt;div class=&quot;u-ratio u-ratio--4x3 cc-pattern-width-lg&quot;&gt;
+    &lt;iframe src=&quot;https://www.youtube.com/embed/qrO4YZeyl0I&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</code></pre>
+            </div>
+        </div>
+        
+        <div class="cc-demo">
+            <div class="cc-demo__header">
+                <p>Landscape</p>
+                <ul>
+                    <li><a href="#" data-cc-toggle-action="toggle" data-cc-toggle-target="#cc-code-landscape-24">Code</a></li>
+                    <li><a href="ratio/landscapef587.html?preview=true">Preview</a></li>
+                </ul>
+            </div>
+            <div class="cc-demo__demo">
+                <div class="u-ratio u-fill-neutral-light cc-pattern-width-sm">
+    <img src="../../build/img/placeholder/1240x400.jpg" />
+</div>
+
+            </div>
+            <div class="cc-demo__code u-toggle" id="cc-code-landscape-24" data-cc-toggle-group="cc-section-landscape">
+                <pre><code class="language-html">&lt;div class=&quot;u-ratio u-fill-neutral-light cc-pattern-width-sm&quot;&gt;
+    &lt;img src=&quot;/build/img/placeholder/1240x400.jpg&quot; /&gt;
+&lt;/div&gt;
+</code></pre>
+            </div>
+        </div>
+        
+        <div class="cc-demo">
+            <div class="cc-demo__header">
+                <p>Portrait</p>
+                <ul>
+                    <li><a href="#" data-cc-toggle-action="toggle" data-cc-toggle-target="#cc-code-portrait-25">Code</a></li>
+                    <li><a href="ratio/portraitf587.html?preview=true">Preview</a></li>
+                </ul>
+            </div>
+            <div class="cc-demo__demo">
+                <div class="u-ratio u-fill-neutral-light cc-pattern-width-sm">
+    <img src="http://pims.iweb.co.uk/100x1000?fg=ff0000&amp;bg=000000" />
+</div>
+
+            </div>
+            <div class="cc-demo__code u-toggle" id="cc-code-portrait-25" data-cc-toggle-group="cc-section-portrait">
+                <pre><code class="language-html">&lt;div class=&quot;u-ratio u-fill-neutral-light cc-pattern-width-sm&quot;&gt;
+    &lt;img src=&quot;http://pims.iweb.co.uk/100x1000?fg=ff0000&amp;bg=000000&quot; /&gt;
+&lt;/div&gt;
+</code></pre>
+            </div>
+        </div>
+        </div></div><div class="cc-pattern"><span class="cc-pattern__anchor" id="section-section"></span><div class="cc-pattern__header"><h3><a href="#section-section"><svg class="icon icon--lg">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../build/img/vector/general/symbol/sprite-symbol.svg#link"></use>
+        </svg> Section</a></h3></div><div class="cc-pattern__body"><div class="cc-pattern__doc"><p>Sections add large margin above, below or both to a section.</p>
+<h4>Available classes:</h4>
+
+<div class="cc-classes">
+    <ul>
+                    <li><code>.u-section-xs</code></li>
+                    <li><code>.u-section-xs-top</code></li>
+                    <li><code>.u-section-xs-bottom</code></li>
+                    <li><code>.u-section-sm</code></li>
+                    <li><code>.u-section-sm-top</code></li>
+                    <li><code>.u-section-sm-bottom</code></li>
+                    <li><code>.u-section</code></li>
+                    <li><code>.u-section-top</code></li>
+                    <li><code>.u-section-bottom</code></li>
+                    <li><code>.u-section-lg</code></li>
+                    <li><code>.u-section-lg-top</code></li>
+                    <li><code>.u-section-lg-bottom</code></li>
+            </ul>
+</div>
+</div>
+        <div class="cc-demo">
+            <div class="cc-demo__header">
+                <p>Base</p>
+                <ul>
+                    <li><a href="#" data-cc-toggle-action="toggle" data-cc-toggle-target="#cc-code-base-26">Code</a></li>
+                    <li><a href="section/basef587.html?preview=true">Preview</a></li>
+                </ul>
+            </div>
+            <div class="cc-demo__demo">
+                <div class="u-clearfix u-fill-neutral-lighter">
+    <div class="u-section">
+        <p>I am in a section with margin top and bottom</p>
+    </div>
+</div>
+<br>
+<div class="u-clearfix u-fill-neutral-lighter">
+    <div class="u-section-top">
+        <p>I am in a section with margin top only</p>
+    </div>
+</div>
+<br>
+<div class="u-clearfix u-fill-neutral-lighter">
+    <div class="u-section-bottom">
+        <p>I am in a section with bottom top only</p>
+    </div>
+</div>
+
+            </div>
+            <div class="cc-demo__code u-toggle" id="cc-code-base-26" data-cc-toggle-group="cc-section-base">
+                <pre><code class="language-html">&lt;div class=&quot;u-clearfix u-fill-neutral-lighter&quot;&gt;
+    &lt;div class=&quot;u-section&quot;&gt;
+        &lt;p&gt;I am in a section with margin top and bottom&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class=&quot;u-clearfix u-fill-neutral-lighter&quot;&gt;
+    &lt;div class=&quot;u-section-top&quot;&gt;
+        &lt;p&gt;I am in a section with margin top only&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class=&quot;u-clearfix u-fill-neutral-lighter&quot;&gt;
+    &lt;div class=&quot;u-section-bottom&quot;&gt;
+        &lt;p&gt;I am in a section with bottom top only&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+            </div>
+        </div>
+        </div></div><div class="cc-pattern"><span class="cc-pattern__anchor" id="section-separator"></span><div class="cc-pattern__header"><h3><a href="#section-separator"><svg class="icon icon--lg">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../build/img/vector/general/symbol/sprite-symbol.svg#link"></use>
+        </svg> Separator</a></h3></div><div class="cc-pattern__body"><div class="cc-pattern__doc"><p>Separators add a border around a div or to one specific side.</p>
+<h4>Available classes:</h4>
+
+<div class="cc-classes">
+    <ul>
+                    <li><code>.u-separator</code></li>
+                    <li><code>.u-separator-top</code></li>
+                    <li><code>.u-separator-left</code></li>
+                    <li><code>.u-separator-bottom</code></li>
+                    <li><code>.u-separator-right</code></li>
+            </ul>
+</div>
+</div>
+        <div class="cc-demo">
+            <div class="cc-demo__header">
+                <p>Base</p>
+                <ul>
+                    <li><a href="#" data-cc-toggle-action="toggle" data-cc-toggle-target="#cc-code-base-27">Code</a></li>
+                    <li><a href="separator/basef587.html?preview=true">Preview</a></li>
+                </ul>
+            </div>
+            <div class="cc-demo__demo">
+                <div class="grid g-gutter">
+    <div>
+        <div class="u-block u-separator u-fill-neutral-lightest">
+            Top
+        </div>
+    </div>
+    <div class="g-col-xs-6 g-col-md-3">
+        <div class="u-block u-separator-top u-fill-neutral-lightest">
+            Top
+        </div>
+    </div>
+    <div class="g-col-xs-6 g-col-md-3">
+        <div class="u-block u-separator-bottom u-fill-neutral-lightest">
+            Bottom
+        </div>
+    </div>
+    <div class="g-col-xs-6 g-col-md-3">
+        <div class="u-block u-separator-left u-fill-neutral-lightest">
+            Left
+        </div>
+    </div>
+    <div class="g-col-xs-6 g-col-md-3">
+        <div class="u-block u-separator-right u-fill-neutral-lightest">
+            Right
+        </div>
+    </div>
+</div>
+
+            </div>
+            <div class="cc-demo__code u-toggle" id="cc-code-base-27" data-cc-toggle-group="cc-section-base">
+                <pre><code class="language-html">&lt;div class=&quot;grid g-gutter&quot;&gt;
+    &lt;div&gt;
+        &lt;div class=&quot;u-block u-separator u-fill-neutral-lightest&quot;&gt;
+            Top
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;g-col-xs-6 g-col-md-3&quot;&gt;
+        &lt;div class=&quot;u-block u-separator-top u-fill-neutral-lightest&quot;&gt;
+            Top
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;g-col-xs-6 g-col-md-3&quot;&gt;
+        &lt;div class=&quot;u-block u-separator-bottom u-fill-neutral-lightest&quot;&gt;
+            Bottom
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;g-col-xs-6 g-col-md-3&quot;&gt;
+        &lt;div class=&quot;u-block u-separator-left u-fill-neutral-lightest&quot;&gt;
+            Left
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;g-col-xs-6 g-col-md-3&quot;&gt;
+        &lt;div class=&quot;u-block u-separator-right u-fill-neutral-lightest&quot;&gt;
+            Right
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+            </div>
+        </div>
+        </div></div><div class="cc-pattern"><span class="cc-pattern__anchor" id="section-space"></span><div class="cc-pattern__header"><h3><a href="#section-space"><svg class="icon icon--lg">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../build/img/vector/general/symbol/sprite-symbol.svg#link"></use>
+        </svg> Space</a></h3></div><div class="cc-pattern__body"><div class="cc-pattern__doc"><p>Adds small margins to elements. Can pass through a size and position. Position accepts top or bottom. Size accepts values inside the spacing variables array. Position is optional. Will apply to both top and bottom without it.</p>
+
+<h4>Available classes:</h4>
+
+<div class="cc-classes">
+    <ul>
+                    <li><code>.u-space</code></li>
+                    <li><code>.u-space-top</code></li>
+                    <li><code>.u-space-bottom</code></li>
+                    <li><code>.u-space-xs</code></li>
+                    <li><code>.u-space-xs-top</code></li>
+                    <li><code>.u-space-xs-bottom</code></li>
+                    <li><code>.u-space-sm</code></li>
+                    <li><code>.u-space-sm-top</code></li>
+                    <li><code>.u-space-sm-bottom</code></li>
+                    <li><code>.u-space-lg</code></li>
+                    <li><code>.u-space-lg-top</code></li>
+                    <li><code>.u-space-lg-bottom</code></li>
+                    <li><code>.u-space-xl</code></li>
+                    <li><code>.u-space-xl-top</code></li>
+                    <li><code>.u-space-xl-bottom</code></li>
+            </ul>
+</div>
+
+</div>
+        <div class="cc-demo">
+            <div class="cc-demo__header">
+                <p>Base</p>
+                <ul>
+                    <li><a href="#" data-cc-toggle-action="toggle" data-cc-toggle-target="#cc-code-base-28">Code</a></li>
+                    <li><a href="space/basef587.html?preview=true">Preview</a></li>
+                </ul>
+            </div>
+            <div class="cc-demo__demo">
+                <div class="u-clearfix u-fill-neutral-lightest">
+    <div class="u-space u-fill-neutral-lighter">
+        <p>Text inside block</p>
+    </div>
+</div>
+
+            </div>
+            <div class="cc-demo__code u-toggle" id="cc-code-base-28" data-cc-toggle-group="cc-section-base">
+                <pre><code class="language-html">&lt;div class=&quot;u-clearfix u-fill-neutral-lightest&quot;&gt;
+    &lt;div class=&quot;u-space u-fill-neutral-lighter&quot;&gt;
+        &lt;p&gt;Text inside block&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+            </div>
+        </div>
+        </div></div><div class="cc-pattern"><span class="cc-pattern__anchor" id="section-toggle"></span><div class="cc-pattern__header"><h3><a href="#section-toggle"><svg class="icon icon--lg">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../build/img/vector/general/symbol/sprite-symbol.svg#link"></use>
+        </svg> Toggle</a></h3></div><div class="cc-pattern__body">
+        <div class="cc-demo">
+            <div class="cc-demo__header">
+                <p>Base</p>
+                <ul>
+                    <li><a href="#" data-cc-toggle-action="toggle" data-cc-toggle-target="#cc-code-base-29">Code</a></li>
+                    <li><a href="toggle/basef587.html?preview=true">Preview</a></li>
+                </ul>
+            </div>
+            <div class="cc-demo__demo">
+                <p><a href="#" data-cc-toggle-action="toggle" data-cc-toggle-target="#demo-toggle">Toggle content</a></p>
+
+<div class="u-toggle" id="demo-toggle">
+    <p>Some content inside toggle.</p>
+</div>
+
+            </div>
+            <div class="cc-demo__code u-toggle" id="cc-code-base-29" data-cc-toggle-group="cc-section-base">
+                <pre><code class="language-html">&lt;p&gt;&lt;a href=&quot;#&quot; data-cc-toggle-action=&quot;toggle&quot; data-cc-toggle-target=&quot;#demo-toggle&quot;&gt;Toggle content&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;u-toggle&quot; id=&quot;demo-toggle&quot;&gt;
+    &lt;p&gt;Some content inside toggle.&lt;/p&gt;
+&lt;/div&gt;
+</code></pre>
+            </div>
+        </div>
+        
+        <div class="cc-demo">
+            <div class="cc-demo__header">
+                <p>Media</p>
+                <ul>
+                    <li><a href="#" data-cc-toggle-action="toggle" data-cc-toggle-target="#cc-code-media-30">Code</a></li>
+                    <li><a href="toggle/mediaf587.html?preview=true">Preview</a></li>
+                </ul>
+            </div>
+            <div class="cc-demo__demo">
+                <p><a href="#" data-cc-toggle-action="toggle" data-cc-toggle-target="#demo-toggle-sm">Toggle content on screen(sm)</a></p>
+
+<div class="u-toggle-sm" id="demo-toggle-sm">
+    <p>Some content inside toggle.</p>
+</div>
+
+            </div>
+            <div class="cc-demo__code u-toggle" id="cc-code-media-30" data-cc-toggle-group="cc-section-media">
+                <pre><code class="language-html">&lt;p&gt;&lt;a href=&quot;#&quot; data-cc-toggle-action=&quot;toggle&quot; data-cc-toggle-target=&quot;#demo-toggle-sm&quot;&gt;Toggle content on screen(sm)&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;u-toggle-sm&quot; id=&quot;demo-toggle-sm&quot;&gt;
+    &lt;p&gt;Some content inside toggle.&lt;/p&gt;
+&lt;/div&gt;
+</code></pre>
+            </div>
+        </div>
+        </div></div><div class="cc-pattern"><span class="cc-pattern__anchor" id="section-visible"></span><div class="cc-pattern__header"><h3><a href="#section-visible"><svg class="icon icon--lg">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../build/img/vector/general/symbol/sprite-symbol.svg#link"></use>
+        </svg> Visible</a></h3></div><div class="cc-pattern__body"><div class="cc-pattern__doc"><p>Visibibility classes show and hide content at different breakpoints.</p>
+
+<h4>Visible Classes</h4>
+
+<div class="cc-classes">
+    <ul>
+                    <li><code>.u-visible-*`</code></li>
+                    <li><code>.u-visible-</code></li>
+                    <li><code>.u-visible</code></li>
+                    <li><code>.u-visible-inline</code></li>
+                    <li><code>.u-visible-inline-block</code></li>
+                    <li><code>.u-visible-sm</code></li>
+                    <li><code>.u-visible-sm-inline</code></li>
+                    <li><code>.u-visible-sm-inline-block</code></li>
+                    <li><code>.u-visible-md</code></li>
+                    <li><code>.u-visible-md-inline</code></li>
+                    <li><code>.u-visible-md-inline-block</code></li>
+                    <li><code>.u-visible-lg</code></li>
+                    <li><code>.u-visible-lg-inline</code></li>
+                    <li><code>.u-visible-lg-inline-block</code></li>
+                    <li><code>.u-visible-xl</code></li>
+                    <li><code>.u-visible-xl-inline</code></li>
+                    <li><code>.u-visible-xl-inline-block</code></li>
+                    <li><code>.u-visible-xs</code></li>
+                    <li><code>.u-visible-xs-inline</code></li>
+                    <li><code>.u-visible-xs-inline-block</code></li>
+            </ul>
+</div>
+
+<h4>Hidden Classes</h4>
+
+<div class="cc-classes">
+    <ul>
+                    <li><code>.u-hidden</code></li>
+                    <li><code>.u-hidden-sm</code></li>
+                    <li><code>.u-hidden-md</code></li>
+                    <li><code>.u-hidden-lg</code></li>
+                    <li><code>.u-hidden-xl</code></li>
+                    <li><code>.u-hidden-xs</code></li>
+            </ul>
+</div>
+
+<h4>Visually Hidden Classes</h4>
+
+<div class="cc-classes">
+    <ul>
+                    <li><code>.u-visually-hidden</code></li>
+            </ul>
+</div>
+</div></div></div>                </main>
+        </div><!--/#wrapper -->
+    
+    <script src="../../build/vendor/svgxuse/svgxuse.js" async></script>
+    <!--[if IE 9]>
+        <script src="/build/vendor/svg4everybody/svg4everybody.js" async></script>
+        <script async>svg4everybody(); // run it now or whenever you are ready</script>
+    <![endif]-->
+    <script src="../../build/vendor/picturefill/picturefill.js" async></script>
+    <script src="../../build/vendor/jquery/jquery.js"></script>
+    <script src="../../build/vendor/jquery/jquery-no-conflict.js"></script>
+    <script src="../../build/vendor/jquery/jquery-ui.min.js"></script>
+    <script src="../../build/js/chop.base.widget.js"></script>
+    <script src="../../build/js/chop.toggle.widget.js"></script>
+    <script src="../../build/js/chop.collapsible.widget.js"></script>
+    <script src="../../build/js/chop.global.js"></script>
+
+    <!-- Placeholder for kitchen-sink scripts -->
+    
+            <script src="../../build/vendor/js.cookie/js.cookie.js"></script>
+        <script src="../../build/vendor/prismjs/prism.js"></script>
+        <script src="../../build/js/chopchop-ui.js"></script>
+    
+</body>
+
+<!-- Mirrored from chopchop_github.gareth.dyn.iweb.co.uk/pattern/utility/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 12 May 2017 10:51:20 GMT -->
+</html>
